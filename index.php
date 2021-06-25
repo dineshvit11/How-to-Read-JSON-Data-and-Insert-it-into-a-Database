@@ -11,8 +11,8 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <h1>JSON</h1>
+  <p>how to add or insert record in json file</p> 
 </div>
   
 <div class="container">
@@ -46,20 +46,15 @@
    <?php 
    $json = file_get_contents('members.json');
    $arr = json_decode($json);
-//print_r($arr); 
-
-   
-   ?>
-   
+   ?>   
  <table class="table table-striped">
     <thead>
       <tr>
-	   <th>Sr No.</th>
+	   <th>Sr.No</th>
         <th>Firstname</th>
         <th>Lastname</th>
 		<th>Phone No</th>
-        <th>Email</th>
-		<th>Action</th>
+        <th>Email</th>		
       </tr>
     </thead>
     <tbody>
@@ -70,8 +65,8 @@
         <td><?php echo $item->firstname; ?></td>
 		<td><?php echo $item->lastname; ?></td>
 		<td><?php echo $item->phoneno; ?></td>
-                <td><?php echo $item->email; ?></td>
-		
+        <td><?php echo $item->email; ?></td>
+	
         </tr>
      <?php  $i++; } ?>
     </tbody>
