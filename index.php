@@ -54,7 +54,7 @@
  <table class="table table-striped">
     <thead>
       <tr>
-	   <th>UserID</th>
+	   <th>Sr No.</th>
         <th>Firstname</th>
         <th>Lastname</th>
 		<th>Phone No</th>
@@ -70,8 +70,8 @@
         <td><?php echo $item->firstname; ?></td>
 		<td><?php echo $item->lastname; ?></td>
 		<td><?php echo $item->phoneno; ?></td>
-        <td><?php echo $item->email; ?></td>
-		<td><a class="btn btn-danger" href="delete.php?id=<?php echo $i; ?>">Delete</a></td>
+                <td><?php echo $item->email; ?></td>
+		
         </tr>
      <?php  $i++; } ?>
     </tbody>
