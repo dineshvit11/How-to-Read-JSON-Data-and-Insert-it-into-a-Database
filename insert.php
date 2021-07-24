@@ -8,7 +8,7 @@
             'firstname' => $_POST['firstname'],
             'lastname' => $_POST['lastname'],
             'phoneno' => $_POST['phoneno'],
-			'email' => $_POST['email']
+	    'email' => $_POST['email']
         );
  
         $json[] = $array;
