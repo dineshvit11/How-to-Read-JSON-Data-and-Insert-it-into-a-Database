@@ -36,6 +36,16 @@
                     <label>Email</label>
                     <input type="text" class="form-control" name="email" required="required"/>
                 </div>
+				
+				 <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" name="email" required="required"/>
+                </div>
+				
+				<div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" name="email" required="required"/>
+                </div>
                 <center><button class="btn btn-primary" name="insert">Insert</button></center>
             </form>
         </div>	
